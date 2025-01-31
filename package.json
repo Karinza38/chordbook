@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@capacitor/core": "^6.1.0",
+    "@capacitor/core": "^6.2.0",
     "@chordbook/editor": "github:chordbook/editor",
     "@chordbook/tuner": "github:chordbook/tuner",
     "@headlessui/vue": "^1.7.23",
