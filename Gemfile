@@ -66,6 +66,6 @@ group :test do
 end
 
 group :production do
-  gem "elasticsearch", "~> 7.17"
+  gem "elasticsearch", "~> 8.0", ">= 8.0.0"
   gem "faraday-httpclient"
 end
