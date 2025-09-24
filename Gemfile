@@ -57,10 +57,10 @@ end
 
 group :test do
   gem "capybara"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", ">= 4.11.0"
   gem "webdrivers"
   gem "vcr"
-  gem "webmock"
+  gem "webmock", ">= 3.25.0"
   gem "factory_bot"
   gem "faker"
 end
