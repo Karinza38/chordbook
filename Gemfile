@@ -17,7 +17,7 @@ gem "chordpro", git: "https://github.com/bkeepers/chordpro.git", branch: "carria
 gem "kaminari"
 gem "addressable"
 gem "acts_as_list"
-gem "paper_trail"
+gem "paper_trail", ">= 17.0.0"
 gem "searchkick"
 gem "searchjoy"
 gem "bcrypt"
