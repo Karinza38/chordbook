@@ -8,7 +8,7 @@ gem "pg"
 gem "puma"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "jbuilder"
-gem "httparty"
+gem "httparty", ">= 0.24.0"
 gem "pg_search"
 gem "good_job"
 gem "rack-cors"
