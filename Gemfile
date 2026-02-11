@@ -29,7 +29,7 @@ gem "actionpack-page_caching"
 gem "ahoy_matey"
 gem "motor-admin"
 gem "shortuuid"
-gem "google-apis-youtube_v3"
+gem "google-apis-youtube_v3", ">= 0.52.0"
 gem "image_processing"
 gem "aws-sdk-s3"
 gem "sentry-ruby"
@@ -66,6 +66,6 @@ group :test do
 end
 
 group :production do
-  gem "elasticsearch", "~> 7.17"
+  gem "elasticsearch", "~> 8.0", ">= 8.0.0"
   gem "faraday-httpclient"
 end
